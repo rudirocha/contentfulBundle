@@ -1,0 +1,23 @@
+{
+  "name": "rudirocha/contentful-bundle",
+  "type": "symfony-bundle",
+  "description": "Contentful API content Reader",
+  "keywords": ["Contentful", "symfony", "bundle", "API", "CMS"],
+  "homepage": "https://github.com/rudirocha/contentfulBundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rúdi Rocha",
+      "email": "rudi.rocha@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.9",
+    "symfony/symfony": "~2.4",
+    "misd/guzzle-bundle": "~1.0"
+  },
+  "autoload": {
+    "psr-0": { "Rubius\\ContentfulBundle": "" }
+  },
+  "target-dir": "Rubius/ContentfulBundle"
+}

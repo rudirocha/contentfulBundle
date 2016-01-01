@@ -1,0 +1,4 @@
+services:
+    rubius.contentful.delivery:
+        class: Rubius\ContentfulBundle\Service\ContentDeliveryService
+        arguments: [@guzzle.client, %rubius_contentful_accesstoken%]
