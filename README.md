@@ -1,6 +1,7 @@
 # Contentful API Reader Bundle
 This is a bundle for https://www.contentful.com API. Just create a Contentful account and follow the instructions.
 Add it for your app from packagist https://packagist.org/packages/rudirocha/contentful-bundle
+
  ### Instructions
  Add necessary parameters
  ```sh
